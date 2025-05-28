@@ -8,7 +8,20 @@
     justify-content: space-evenly;
   }
   .title {
+    margin: 0px auto 20px auto;
+  }
+
+  .title-and-product {
     margin: auto;
+  }
+
+  .section-header {
+    flex-direction: column;
+  }
+
+  .view-btn {
+    position: unset;
+    margin: 20px auto 0px auto;
   }
   .section-title {
     margin: auto;
@@ -27,12 +40,26 @@
     gap: 20px;
   }
   .products {
+    max-width: 500px;
     width: 100%;
     height: 350px;
     gap: 30px;
   }
   .view-btn {
-    display: block;
+    /* display: block; */
     width: 100%;
+    padding: unset;
+    text-align: center;
+    padding-top: 16px;
+  }
+  .view-btn a {
+    margin: auto;
+  }
+  .product-photos {
+    max-width: 500px;
+    width: 100%;
+  }
+  .product-desc {
+    margin: 16px auto 0px auto;
   }
 }
