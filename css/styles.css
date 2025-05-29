@@ -9,7 +9,7 @@
 }
 
 .section-header {
-  border: 3px solid rgb(246, 216, 23);
+  /* border: 3px solid rgb(246, 216, 23); */
   max-width: 1170px;
   width: 100%;
   min-height: 108px;
@@ -78,7 +78,7 @@
 }
 
 .main-section {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   max-width: 1170px;
   width: 100%;
   min-height: 350px;
@@ -92,29 +92,53 @@
   border: 1px solid black;
   max-width: 270px;
   width: 100%;
-  height: 350px;
+  min-height: 350px;
 }
 .product-photos {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   max-width: 270px;
   width: 100%;
   height: 250px;
   background-color: #f5f5f5;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  padding: 12px;
+  /* align-items: center; */
   /* position: relative; */
 }
+
+.jacket {
+  background-image: url(../images/jacket.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.handbag {
+  background-image: url(../images/handbag.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.speaker {
+  background-image: url(../images/cooler.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.bookshelf {
+  background-image: url(../images/bookshelf.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
 .heart-and-eye {
-  border: 1px solid green;
   width: 34px;
   height: 76px;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  /* position: absolute; */
-  margin-top: 12px;
 }
+
 .heart,
 .eye {
   /* border: 1px solid green; */
@@ -128,8 +152,13 @@
 }
 
 .product-desc {
-  border: 1px solid green;
-  width: 140px;
-  height: 84px;
+  /* border: 1px solid green; */
+  max-width: 140px;
+  width: 100%;
+  min-height: 84px;
   margin-top: 16px;
+  /* text-align: center; */
+  color: #000;
+  font-style: italic;
+  font-weight: 600;
 }
